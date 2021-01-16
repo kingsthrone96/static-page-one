@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3d3d3d;
+  overflow: hidden;
+}
+
+#about {
+  padding-top: 100px;
+}
+
+#about #aboutContainer #heading hr {
+  color: #25a125;
+}
+
+#about #aboutContainer #content #about-section-1 {
+  padding-bottom: 100px;
+}
+
+#about #aboutContainer #content #about-section-1 #right-text-info-container #right-text-info {
+  line-height: 2;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 80px 40px;
+}
+
+#about #aboutContainer #content #about-section-1 #right-text-info-container #right-text-info h1 {
+  color: #25a125;
+}
+
+#about #aboutContainer #content #about-section-1 #right-text-info-container #right-text-info p {
+  font-size: .95em;
+}
+
+#about #aboutContainer #content #about-section-1 #left-img img {
+  width: 100%;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#about #aboutContainer #content #about-section-2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#about #aboutContainer #content #about-section-2 #about-section-2-container #left-text-info-container #left-text-info {
+  padding: 20px;
+  line-height: 1.9;
+  padding-bottom: 25px;
+}
+
+#about #aboutContainer #content #about-section-2 #about-section-2-container #left-text-info-container #left-text-info h1 {
+  color: #25a125;
+}
+
+#about #aboutContainer #content #about-section-2 #about-section-2-container #left-text-info-container #left-text-info p {
+  font-size: .95em;
+}
+
+#about #aboutContainer #content #about-section-2 #about-section-2-container #left-text-info-container #left-text-info hr {
+  border: 1px #25a125 solid;
+}
+
+#about #aboutContainer #content #about-section-2 #about-section-2-container #right-text-info-container #right-text-info {
+  padding: 20px;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right bottom, from(#275f1f), to(#25a125));
+  background: linear-gradient(to bottom right, #275f1f, #25a125);
+  border-radius: 10px;
+  line-height: 1.9;
+}
+
+#about #aboutContainer #content #about-section-2 #about-section-2-container #right-text-info-container #right-text-info h1 {
+  color: #fff;
+}
+
+#about #aboutContainer #content #about-section-2 #about-section-2-container #right-text-info-container #right-text-info p {
+  font-size: .95em;
+}
+
+@media (max-width: 768px) {
+  #about #content #about-section-1 {
+    display: block !important;
+  }
+  #about #content #about-section-1 #left-img {
+    width: 100% !important;
+    margin: auto !important;
+  }
+  #about #content #about-section-1 #right-text-info-container {
+    width: 100%;
+  }
+  #about #content #about-section-1 #right-text-info-container #right-text-info {
+    padding: 10px !important;
+  }
+}
+
+@media (max-width: 670px) {
+  #about #aboutContainer #content #about-section-2 #about-section-2-container {
+    display: block !important;
+  }
+  #about #aboutContainer #content #about-section-2 #about-section-2-container #left-text-info-container {
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+  #about #aboutContainer #content #about-section-2 #about-section-2-container #left-text-info-container #left-text-info {
+    padding: 10px;
+  }
+  #about #aboutContainer #content #about-section-2 #about-section-2-container #right-text-info-container {
+    width: 100% !important;
+    margin: auto !important;
+  }
+}
+/*# sourceMappingURL=aboutStyle.css.map */

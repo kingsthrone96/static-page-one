@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <!--*Body Components style links-->
+  <link rel="stylesheet" href="./styles/primaryStyle/globalStyle.css">
+  <link rel="stylesheet" href="./styles/helper/helperClasses.css">
+  <link rel="stylesheet" href="./styles/components/navStyle/navStyle.css">
+  <link rel="stylesheet" href="./styles/components/headerStyle/headerStyle.css">
+  <link rel="stylesheet" href="./styles/components/servicesStyle/servicesStyle.css">
+  <link rel="stylesheet" href="./styles/components/projectsStyle/projectsStyle.css">
+  <link rel="stylesheet" href="./styles/components/aboutStyle/aboutStyle.css">
+  <link rel="stylesheet" href="./styles/components/teamStyle/teamStyle.css">
+  <link rel="stylesheet" href="./styles/components/contactStyle/contactStyle.css">
+  <title>Project One</title>
+</head>
+<body>
+
+  <!--*Navigation Area-->
+  <nav class="hc-pos-fixed hc-full-width hc-d-block">
+    <div id="navContainer" class="hc-container hc-m-lr-auto hc-d-flex hc-justify-content-sb hc-align-items-center">
+      <div id="sideNavBtn">
+        <div class="navBtnIcon"></div>
+        <div class="navBtnIcon"></div>
+        <div class="navBtnIcon"></div>
+      </div>
+      <div id="navTitle">
+        <a href="#header" id="navTitleItem">Web Design</a>
+      </div>
+      <div id="modal"></div>
+
+      <div id="navLinkArea">
+        <a href="#services" class="nav-link-items">SERVICES</a>
+        <a href="#projects" class="nav-link-items">PROJECTS</a>
+        <a href="#about" class="nav-link-items">ABOUT</a>
+        <a href="#team" class="nav-link-items">TEAM</a>
+        <a href="#contact" class="nav-link-items">CONTACT</a>
+      </div>
+    </div>
+    <div id="sideNavItemArea" class="hc-pos-fixed ">
+      <div id="sideNavItemContainer" class="hc-d-block">
+        <i id="closeSideNav" class="fas fa-arrow-left fa-2x"></i>
+        <a href="#services" class="nav-link-items">SERVICES</a>
+        <a href="#projects" class="nav-link-items">PROJECTS</a>
+        <a href="#about" class="nav-link-items">ABOUT</a>
+        <a href="#team" class="nav-link-items">TEAM</a>
+        <a href="#contact" class="nav-link-items">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
+  <!--*Header section-->
+  <header id="header" class="hc-pos-abs hc-vw-100 hc-vh-100">
+    <div id="headerContainer" class="hc-container hc-d-block hc-pos-rel hc-m-lr-auto">
+      <h4>Welcome To Our Site</h4>
+      <h1>Web Theme</h1>
+      <a href="#services" id="headerBtn">TELL ME MORE</a>
+    </div>
+  </header>
+
+  <!--*Services Section-->
+  <section id="services">
+    <div id="servicesContainer" class="hc-container hc-m-lr-auto hc-d-block">
+      <div id="heading" class="hc-full-width hc-section-heading">
+        <h1 class="hc-text-center">SERVICES</h1>
+        <hr class="hc-heading-title-underline">
+      </div>
+      <div id="content" class="hc-d-flex hc-justify-content-se">
+        <div class="service-contents hc-col-4 hc-d-block hc-text-center">
+          <div class="icon-container hc-d-flex hc-align-items-center hc-justify-content-center hc-m-lr-auto"><span class="fas fa-mobile fa-4x hc-text-white"></span></div>
+          <h1>Mobile Friendly</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus! Illo ad, nostrum beatae aliquam eligendi eos temporibus.</p>
+        </div>
+        <div class="service-contents hc-col-4 hc-d-block hc-text-center">
+          <div class="icon-container hc-d-flex hc-align-items-center hc-justify-content-center hc-m-lr-auto"><span class="fas fa-laptop fa-4x hc-text-white"></span></div>
+          <h1>Responsive Design</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus! Illo ad, nostrum beatae aliquam eligendi eos temporibus.</p>
+        </div>
+        <div class="service-contents hc-col-4 hc-d-block hc-text-center">
+          <div class="icon-container hc-d-flex hc-align-items-center hc-justify-content-center hc-m-lr-auto"><span class="fas fa-shapes fa-4x hc-text-white"></span></div>
+          <h1>Ideal Themes</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ducimus! Illo ad, nostrum beatae aliquam eligendi eos temporibus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--*Projects section-->
+  <section id="projects" class="hc-bg-light-dim">
+    <div id="projectsContainer" class="hc-container hc-d-block">
+      <div id="heading" class="hc-full-width hc-section-heading">
+        <h1 class="hc-text-center">PROJECTS</h1>
+        <hr class="hc-heading-title-underline">
+      </div>
+      <div id="content" class="hc-d-flex">
+        <div class="project-cards hc-d-block hc-col-4">
+          <div class="card-container hc-content-shade">
+            <img src="./images/camera_lens_grass_146546_1280x720.jpg" alt="" class="card-img">
+            <h1>Photography</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quaerat fugiat repudiandae non libero esse magni iusto sunt temporibus ipsam.</p>
+          </div>
+        </div>
+        <div class="project-cards hc-d-block hc-col-4">
+          <div class="card-container hc-content-shade">
+            <img src="./images/coffee_book_glasses_140830_1280x720.jpg" alt="" class="card-img">
+            <h1>Knowledge</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quaerat fugiat repudiandae non libero esse magni iusto sunt temporibus ipsam.</p>
+          </div>
+        </div>
+        <div class="project-cards hc-d-block hc-col-4">
+          <div class="card-container hc-content-shade">
+            <img src="./images/guitar_hand_strings_122915_1280x720.jpg" alt="" class="card-img">
+            <h1>Music</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quaerat fugiat repudiandae non libero esse magni iusto sunt temporibus ipsam.</p>
+          </div>
+        </div>
+        <div class="project-cards hc-d-block hc-col-4">
+          <div class="card-container hc-content-shade">
+            <img src="./images/city_buildings_water_152123_1280x720.jpg" alt="" class="card-img">
+            <h1>Travel</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quaerat fugiat repudiandae non libero esse magni iusto sunt temporibus ipsam.</p>
+          </div>
+        </div>
+        <div class="project-cards hc-d-block hc-col-4">
+          <div class="card-container hc-content-shade">
+            <img src="./images/tree_decoration_ribbon_149821_1280x720.jpg" alt="" class="card-img">
+            <h1>Holidays</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quaerat fugiat repudiandae non libero esse magni iusto sunt temporibus ipsam.</p>
+          </div>
+        </div>
+        <div class="project-cards hc-d-block hc-col-4">
+          <div class="card-container hc-content-shade">
+            <img src="./images/marshmallows_cup_drink.jpg" alt="" class="card-img">
+            <h1>Food</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam quaerat fugiat repudiandae non libero esse magni iusto sunt temporibus ipsam.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--*About section-->
+  <section id="about">
+    <div id="aboutContainer">
+      <div id="heading" class="hc-full-width hc-section-heading">
+        <h1 class="hc-text-center">About Us</h1>
+        <hr class="hc-heading-title-underline">
+      </div>
+      <div id="content" class="hc-d-block">
+        <div id="about-section-1" class="hc-container hc-d-flex hc-justify-content-center">
+          <div id="left-img" class="hc-col-5 hc-d-flex hc-align-items-center">
+            <img src="./images/images (1).jpeg" alt="">
+          </div>
+          <div id="right-text-info-container" class="hc-col-6">
+            <div id="right-text-info">
+              <h1>Who we are</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti incidunt exercitationem illum adipisci. Sed odit quod libero sit iure dignissimos recusandae ipsam, repellat fugiat beatae at, totam nam vitae quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae non repudiandae ipsum eveniet officia iure ea vel earum at aut? Quis reiciendis doloremque impedit voluptate officiis? Harum consequatur laborum nemo.</p>
+            </div>
+          </div>
+        </div>
+        <div id="about-section-2" class="hc-bg-light-dim">
+          <div id="about-section-2-container" class="hc-container hc-d-flex hc-justify-content-se">
+            <div id="left-text-info-container" class="hc-col-6">
+              <div id="left-text-info" class="hc-d-block">
+                <h1>WHAT WE DO</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit ratione nihil, et error sunt corrupti sequi aliquam quos, repellat culpa ad placeat ab veritatis, eius facilis molestias libero non consectetur.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis reprehenderit necessitatibus eligendi eveniet cumque voluptates iste, libero illum provident ea explicabo aspernatur soluta iusto maxime doloremque aliquid animi expedita ipsum.</p>
+                <br>
+                <hr>
+              </div>
+            </div>
+            <div id="right-text-info-container" class="hc-col-5">
+              <div id="right-text-info" class="hc-d-block">
+                <h1>OUR GOAL</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, et veritatis architecto pariatur exercitationem, eveniet corrupti dolores consequuntur maxime earum, incidunt nostrum temporibus soluta sint ad necessitatibus vitae ipsam. Omnis doloremque ut deleniti saepe voluptatibus. Labore eos suscipit laudantium ducimus, aliquid odit, eum iusto voluptatum tempora, ipsa culpa consequuntur nulla?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--*Team section-->
+  <section id="team">
+    <div id="teamContainer" class="hc-container hc-m-lr-auto">
+      <div id="content" class="hc-d-block">
+         <div id="heading" class="hc-section-heading hc-col-8 hc-m-lr-auto hc-text-center">
+           <h1>Our Team</h1>
+           <hr class="hc-heading-title-underline">
+           <br>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus obcaecati iste dignissimos hic deleniti reprehenderit voluptate rerum quia eveniet molestias</p>
+         </div>
+         <div id="teamProfile" class="hc-d-flex hc-justify-content-center">
+          <div class="hc-col-3 hc-text-center">
+            <div class="img-container">
+              <img src="./images/girl1.jpeg" alt="">
+            </div>
+            <p class="member-name">Sarah Mckinley</p>
+            <cite>-- Designer</cite>
+            <br>
+            <br>
+            <p class="member-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum debitis corporis quas suscipit perferendis.</p>
+            <br>
+            <div class="sm-icons hc-col-6 hc-m-lr-auto hc-d-flex hc-justify-content-se">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+          <div class="hc-col-3 hc-text-center">
+            <div class="img-container">
+              <img src="./images/boy1.jpg" alt="">
+            </div>
+            <p class="member-name">John Doe</p>
+            <cite>-- Developer</cite>
+            <br>
+            <br>
+            <p class="member-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum debitis corporis quas suscipit perferendis.</p>
+            <br>
+            <div class="sm-icons hc-col-6 hc-m-lr-auto hc-d-flex hc-justify-content-se">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+          <div class="hc-col-3 hc-text-center">
+            <div class="img-container">
+              <img src="./images/girl2.png" alt="">
+            </div>
+            <p class="member-name">Kelsey Smith</p>
+            <cite>-- Designer</cite>
+            <br>
+            <br>
+            <p class="member-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum debitis corporis quas suscipit perferendis.</p>
+            <br>
+            <div class="sm-icons hc-col-6 hc-m-lr-auto hc-d-flex hc-justify-content-se">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+  </section>
+
+  <!--*Contact section-->
+  <section id="contact">
+    <div id="contactContainer" class="hc-container hc-d-block">
+      <div id="contactArea" class="hc-d-flex hc-justify-content-se">
+        <div id="leftSideContentContainer" class="hc-col-5 hc-d-block">
+          <div id="leftSideContent">
+            <h1>CONNECT</h1>
+            <hr class="hc-heading-title-underline">
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quae laborum corporis cupiditate inventore fugiat, earum ipsum sapiente deserunt tempora quas consequuntur.</p>
+          </div>
+        </div>
+        <div id="rightSideForm" class="hc-col-5 hc-d-block">
+          <form>
+            <h1>CONTACT US</h1>
+            <input type="text" name="name" placeholder="Name" id="inputName" class="hc-full-width">
+            <br>
+            <input type="email" name="email" placeholder="Email" id="inputEmail" class="hc-full-width">
+            <br>
+            <textarea name="message" id="inputMessage" placeholder="Write message . . ." rows="3" cols="10" class="hc-full-width"></textarea>
+            <br>
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+      <hr class="hc-pos-abs hc-full-width hc-left-0 hc-right-0">
+      <div id="iconContact" class="hc-d-flex">
+        <div class="hc-col-3 hc-d-flex hc-justify-content-center hc-align-items-center">
+          <i class="fas fa-home fa-2x hc-text-white"></i>
+          <div class="icon-tag hc-d-block">
+            <h6 class="hc-text-white">Address:</h6>
+            <p class="hc-text-white">165 corner street</p>
+          </div>
+        </div>
+        <div class="hc-col-3 hc-d-flex hc-justify-content-center hc-align-items-center">
+          <i class="fas fa-mobile fa-2x hc-text-white"></i>
+          <div class="icon-tag hc-d-block">
+            <h6 class="hc-text-white">Phone:</h6>
+            <p class="hc-text-white">+555-555-555</p>
+          </div>
+        </div>
+        <div class="hc-col-3 hc-d-flex hc-justify-content-center hc-align-items-center">
+          <i class="fas fa-fax fa-2x hc-text-white"></i>
+          <div class="icon-tag hc-d-block">
+            <h6 class="hc-text-white">Fax:</h6>
+            <p class="hc-text-white">165-345-332</p>
+          </div>
+        </div>
+        <div class="hc-col-3 hc-d-flex hc-justify-content-center hc-align-items-center">
+          <i class="fas fa-envelope fa-2x hc-text-white"></i>
+          <div class="icon-tag hc-d-block">
+            <h6 class="hc-text-white">Email:</h6>
+            <p class="hc-text-white">email@web.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div id="footer">
+      <h3>WEB <span>DESIGN</span> &copy;2020</h3>
+    </div>
+  </footer>
+
+
+  <script src="./javascript/jquery.min.js"></script>
+  <script src="./javascript/main.js"></script>
+</body>
+</html>

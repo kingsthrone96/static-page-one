@@ -1,0 +1,227 @@
+
+@import "../../primaryStyle/globalStyle.scss";
+
+#contact {
+  background: linear-gradient(rgba(0, 0, 0, .5)), url('../../../images/guitar_hand_strings_122915_1280x720.jpg')  no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+
+  #contactContainer {
+    padding-top: 100px 0;
+
+    #contactArea {
+      margin-top: 50px;
+
+      #leftSideContentContainer {
+        #leftSideContent {
+          line-height: 2;
+
+          h1 {
+            font-size: 2.1rem;
+            color: #fff;
+          }
+  
+          hr {
+            color: #fff;
+            width: 50px;
+            border: 2px solid;
+            margin: 5px;
+          }
+  
+          p {
+            color: #fff;
+          }
+  
+        }
+      }
+
+      #rightSideForm {
+        form {
+          line-height: 2;
+          border-radius: 10px;
+
+          h1 {
+            color: #fff;
+            font-size: 2.1rem;
+          }
+
+          input {
+            width: 95%;
+            font-size: 1em;
+            padding: 5px 5px;
+            margin: 15px 0;
+            border: none;
+            border-bottom: 2px #fff solid;
+            background: transparent;
+            color: #fff;
+
+            &:focus {
+              outline: none;
+            }
+
+            &::placeholder {
+              color: #fff;
+              opacity: 1;
+            }
+
+          }
+
+          textarea {
+            width: 95%;
+            font-size: 16px;
+            padding: 10px 5px;
+            margin: 15px 0;
+            border: none;
+            border-bottom: 2px #fff solid;
+            background: transparent;
+            color: #fff;
+            resize: none;
+
+            &:focus {
+              outline: none;
+            }
+
+            &::placeholder {
+              color: #fff;
+              opacity: 1;
+            }
+          }
+
+          button {
+            border: 2px #fff solid;
+            background: transparent;
+            padding: 10px 40px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: 500ms;
+            border-radius: 5px;
+
+            &:hover {
+              background: #fff;
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+
+    hr {
+      margin-top: 25px;
+    }
+
+    #iconContact {
+      margin-top: 25px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      
+
+      .hc-col-3 {
+        i {
+          margin-right: 10px;
+        }
+
+        h6 {
+          font-size: 16px;
+        }
+      }
+
+      .hc-col-3:nth-child(1) {
+        border-right: 1px #fff solid;
+      }
+
+      .hc-col-3:nth-child(2) {
+        border-right: 1px #fff solid;
+      }
+
+      .hc-col-3:nth-child(3) {
+        border-right: 1px #fff solid;
+      }
+    }
+  }
+}
+
+footer > #footer {
+  padding: 20px 0;
+  
+  h3 {
+    text-align: center;
+    font-size: 1rem;
+
+    span {
+      color: $primaryColor;
+    }
+    
+  }
+}
+
+@media(max-width: 768px) {
+  #contact {
+    #contactContainer {
+      #iconContact {
+        .hc-col-3 {
+          display: block !important;
+          text-align: center !important;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 670px) {
+  #contact {
+    #contactContainer {
+      #contactArea {
+        display: block !important;
+
+        #leftSideContentContainer {
+          width: 100% !important;
+          margin: auto !important;
+          margin-bottom: 30px !important;
+        }
+
+        #rightSideForm {
+          width: 100% !important;
+          margin: auto !important;
+        }
+      }
+
+      #iconContact {
+        flex-wrap: wrap !important;
+        
+        .hc-col-3 {
+          width: 50% !important;
+          margin-top: 25px !important;
+          border-right: none !important;
+          text-align: center !important;
+          display: block !important;
+        }
+ 
+      }
+    }
+  }
+}
+
+@media(max-width: 515px) {
+  #contact {
+    #contactContainer {
+      #contactArea {
+        #leftSideContentContainer {
+          #leftSideContent {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+          }
+        }
+
+        #rightSideForm {
+          form {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

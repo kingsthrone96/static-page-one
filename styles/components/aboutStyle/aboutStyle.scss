@@ -1,0 +1,143 @@
+
+@import "../../primaryStyle/globalStyle.scss";
+
+#about {
+  padding-top: 100px;
+  
+  #aboutContainer {
+    #heading {
+      
+      hr {
+        color: $primaryColor;
+      }
+    }
+
+    #content {
+      #about-section-1 {
+        padding-bottom: 100px;
+        #right-text-info-container {
+          #right-text-info {
+            line-height: 2;
+            height: fit-content;
+            padding: 80px 40px;
+            h1 {
+              color: $primaryColor;
+            }
+            
+            p {
+              font-size: .95em;
+            }
+          }
+        }
+
+        #left-img {
+          
+          img { 
+            width: 100%;
+            margin: auto;
+            object-fit: cover;
+          }
+        
+        }
+      }
+
+      #about-section-2 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+       
+        #about-section-2-container {
+          #left-text-info-container {
+            #left-text-info {
+              padding: 20px;
+              line-height: 1.9;
+              
+              padding-bottom: 25px;
+
+              h1 {
+                color: $primaryColor;
+              }
+              
+              p {
+                font-size: .95em;
+              }
+
+              hr {
+                border: 1px $primaryColor solid;
+              }
+            }
+          }
+
+          #right-text-info-container {
+            #right-text-info {
+              padding: 20px;
+              color: #fff;
+              background: linear-gradient(to bottom right, #275f1f, $primaryColor);
+              border-radius: 10px;
+              line-height: 1.9;
+
+              h1 {
+                color: #fff;
+              }
+
+              p {
+                font-size: .95em;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  #about {
+    #content {
+      #about-section-1 {
+        display: block !important;
+        #left-img {
+          width: 100% !important;
+          margin: auto !important;
+        }
+
+        #right-text-info-container {
+          width: 100%;
+
+          #right-text-info {
+            padding: 10px !important;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media(max-width: 670px) {
+  #about {
+    #aboutContainer {
+      #content {
+        #about-section-2 {
+          #about-section-2-container {
+            display: block !important;
+
+            #left-text-info-container {
+              width: 100% !important;
+              margin: auto !important;
+              margin-bottom: 20px !important;
+
+              #left-text-info {
+                padding: 10px;
+              }
+            }
+
+            #right-text-info-container {
+              width: 100% !important;
+              margin: auto !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

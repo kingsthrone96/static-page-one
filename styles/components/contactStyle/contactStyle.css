@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3d3d3d;
+  overflow: hidden;
+}
+
+#contact {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url("../../../images/guitar_hand_strings_122915_1280x720.jpg") no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url("../../../images/guitar_hand_strings_122915_1280x720.jpg") no-repeat fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+#contact #contactContainer {
+  padding-top: 100px 0;
+}
+
+#contact #contactContainer #contactArea {
+  margin-top: 50px;
+}
+
+#contact #contactContainer #contactArea #leftSideContentContainer #leftSideContent {
+  line-height: 2;
+}
+
+#contact #contactContainer #contactArea #leftSideContentContainer #leftSideContent h1 {
+  font-size: 2.1rem;
+  color: #fff;
+}
+
+#contact #contactContainer #contactArea #leftSideContentContainer #leftSideContent hr {
+  color: #fff;
+  width: 50px;
+  border: 2px solid;
+  margin: 5px;
+}
+
+#contact #contactContainer #contactArea #leftSideContentContainer #leftSideContent p {
+  color: #fff;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form {
+  line-height: 2;
+  border-radius: 10px;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form h1 {
+  color: #fff;
+  font-size: 2.1rem;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form input {
+  width: 95%;
+  font-size: 1em;
+  padding: 5px 5px;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 2px #fff solid;
+  background: transparent;
+  color: #fff;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form input:focus {
+  outline: none;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form input::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form input:-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form input::-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form textarea {
+  width: 95%;
+  font-size: 16px;
+  padding: 10px 5px;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 2px #fff solid;
+  background: transparent;
+  color: #fff;
+  resize: none;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form textarea:focus {
+  outline: none;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form textarea::-webkit-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form textarea:-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form textarea::-ms-input-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form textarea::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form button {
+  border: 2px #fff solid;
+  background: transparent;
+  padding: 10px 40px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2em;
+  cursor: pointer;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-radius: 5px;
+}
+
+#contact #contactContainer #contactArea #rightSideForm form button:hover {
+  background: #fff;
+  color: #000;
+}
+
+#contact #contactContainer hr {
+  margin-top: 25px;
+}
+
+#contact #contactContainer #iconContact {
+  margin-top: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contact #contactContainer #iconContact .hc-col-3 i {
+  margin-right: 10px;
+}
+
+#contact #contactContainer #iconContact .hc-col-3 h6 {
+  font-size: 16px;
+}
+
+#contact #contactContainer #iconContact .hc-col-3:nth-child(1) {
+  border-right: 1px #fff solid;
+}
+
+#contact #contactContainer #iconContact .hc-col-3:nth-child(2) {
+  border-right: 1px #fff solid;
+}
+
+#contact #contactContainer #iconContact .hc-col-3:nth-child(3) {
+  border-right: 1px #fff solid;
+}
+
+footer > #footer {
+  padding: 20px 0;
+}
+
+footer > #footer h3 {
+  text-align: center;
+  font-size: 1rem;
+}
+
+footer > #footer h3 span {
+  color: #25a125;
+}
+
+@media (max-width: 768px) {
+  #contact #contactContainer #iconContact .hc-col-3 {
+    display: block !important;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 670px) {
+  #contact #contactContainer #contactArea {
+    display: block !important;
+  }
+  #contact #contactContainer #contactArea #leftSideContentContainer {
+    width: 100% !important;
+    margin: auto !important;
+    margin-bottom: 30px !important;
+  }
+  #contact #contactContainer #contactArea #rightSideForm {
+    width: 100% !important;
+    margin: auto !important;
+  }
+  #contact #contactContainer #iconContact {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  #contact #contactContainer #iconContact .hc-col-3 {
+    width: 50% !important;
+    margin-top: 25px !important;
+    border-right: none !important;
+    text-align: center !important;
+    display: block !important;
+  }
+}
+
+@media (max-width: 515px) {
+  #contact #contactContainer #contactArea #leftSideContentContainer #leftSideContent {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #contact #contactContainer #contactArea #rightSideForm form {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+/*# sourceMappingURL=contactStyle.css.map */

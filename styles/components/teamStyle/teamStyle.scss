@@ -1,0 +1,103 @@
+
+@import "../../primaryStyle/globalStyle.scss";
+
+#team {
+  padding: 100px 0px;
+
+  #teamContainer {
+    #content {
+      #heading {
+        hr {
+          color: $primaryColor;
+        }
+
+        p {
+          font-size: .9em;
+          color: #646464;
+          line-height: 1.9;
+        }
+      }
+
+      #teamProfile > .hc-col-3 {
+        line-height: 1.7;
+        margin-left: 2%;
+        margin-right: 2%;
+        .img-container {
+          width: 100%;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .member-name {
+          font-size: 20px;
+          font-weight: 800;
+        }
+
+        cite {
+          font-weight: 500;
+        }
+
+        .member-info {
+          font-size: .9em;
+          color: #646464;
+        }
+
+        .sm-icons {
+
+          i {
+            color: $primaryColor;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  #teamProfile > .hc-col-3 {
+    width: 33.32% !important;
+    margin: 0 !important;
+
+    .member-info {
+      padding: 0 10px;
+    }
+  }
+}
+
+@media(max-width: 670px) {
+  #team {
+    #teamContainer {
+      #content {
+        #teamProfile {
+          display: block !important;
+
+          .hc-col-3 {
+            width: 90% !important;
+            margin: auto !important;
+            margin-bottom: 40px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 515px) {
+  #team {
+    #teamContainer {
+      #content {
+        #heading {
+          width: 90% !important;
+        }
+
+        #teamProfile {
+          .hc-col-3 {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+}
